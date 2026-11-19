@@ -26,6 +26,17 @@ class contadorPalabras(QtWidgets.QMainWindow):
         totalCaracteres
         self.tvCaracteres.setText(f"caracteres: {totalCaracteres}")
         #TODO configurar el cambio de texto dinamico
+        #Condicionar la alerta
+        if cantidadPalabras >= 20:
+            self.tvPalabras.setStyleSheet("color: #ff756b")
+        else:
+            self.tvPalabras.setStyleSheet("color: #000000")
+        if totalCaracteres >= 120:
+            self.tvCaracteres.setStyleSheet("color: #ff756b")
+        else:
+            self.tvCaracteres.setStyleSheet("color: #000000")
+                                    
+
 
 app=QtWidgets.QApplication(sys.argv)
 ventana = contadorPalabras()
