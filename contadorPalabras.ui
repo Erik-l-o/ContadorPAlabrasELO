@@ -49,8 +49,8 @@ font: 22pt &quot;Segoe UI Variable Text&quot;;</string>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>10</y>
+      <x>240</x>
+      <y>30</y>
       <width>521</width>
       <height>121</height>
      </rect>
@@ -90,7 +90,7 @@ font: 22pt &quot;Segoe UI Variable Text&quot;;</string>
      <rect>
       <x>640</x>
       <y>250</y>
-      <width>221</width>
+      <width>291</width>
       <height>131</height>
      </rect>
     </property>
@@ -156,8 +156,8 @@ font: 22pt &quot;Segoe UI Variable Text&quot;;</string>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>820</x>
-      <y>0</y>
+      <x>790</x>
+      <y>-60</y>
       <width>301</width>
       <height>251</height>
      </rect>
@@ -172,6 +172,26 @@ font: 22pt &quot;Segoe UI Variable Text&quot;;</string>
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>-20</y>
+      <width>701</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Light</family>
+      <pointsize>36</pointsize>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>PROYECTO DIDI Y ERK</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -179,7 +199,7 @@ font: 22pt &quot;Segoe UI Variable Text&quot;;</string>
      <x>0</x>
      <y>0</y>
      <width>1124</width>
-     <height>21</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>
