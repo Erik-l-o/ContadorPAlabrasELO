@@ -16,9 +16,17 @@ class contadorPalabras(QtWidgets.QMainWindow):
         TextoSeparado =texto.split() #separa las letras
         print(TextoSeparado)
         #contar las palabras
+        cantidadPalabras = len(TextoSeparado)
+        print("palabras",cantidadPalabras)
+        self.tvPalabras.setText(f"palabras:{cantidadPalabras}")
         #contar caraccteres
-        print("se ha ejecutado")
-    
+        totalCaracteres=0
+        for palabra in TextoSeparado:
+            totalCaracteres += len(palabra)
+        totalCaracteres
+        self.tvCaracteres.setText(f"caracteres: {totalCaracteres}")
+        #TODO configurar el cambio de texto dinamico
+
 app=QtWidgets.QApplication(sys.argv)
 ventana = contadorPalabras()
 ventana.show()

@@ -71,7 +71,7 @@ font: 22pt &quot;Segoe UI Variable Text&quot;;</string>
      <rect>
       <x>170</x>
       <y>270</y>
-      <width>161</width>
+      <width>231</width>
       <height>91</height>
      </rect>
     </property>
@@ -82,7 +82,7 @@ font: 22pt &quot;Segoe UI Variable Text&quot;;</string>
      </font>
     </property>
     <property name="text">
-     <string>palabras:</string>
+     <string>palabras:  0</string>
     </property>
    </widget>
    <widget class="QLabel" name="tvCaracteres">
@@ -101,7 +101,7 @@ font: 22pt &quot;Segoe UI Variable Text&quot;;</string>
      </font>
     </property>
     <property name="text">
-     <string>caracteres:</string>
+     <string>caracteres:   0</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btnContar">
@@ -179,7 +179,7 @@ font: 22pt &quot;Segoe UI Variable Text&quot;;</string>
      <x>0</x>
      <y>0</y>
      <width>1124</width>
-     <height>56</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
